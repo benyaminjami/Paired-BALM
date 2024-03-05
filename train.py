@@ -273,7 +273,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--pretrain-dir",
         type=str,
-        default='pretrain',
+        default='pretrained_BALM',
         help="folder to pretrained files of BALM",
     )
     parser.add_argument(
