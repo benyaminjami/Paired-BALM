@@ -23,7 +23,7 @@ bash data.sh
 ```
 This script will create two files in the main directory: data.pkl and mask_probs.pt. These files contain pickled antibody sequences with their IMGT numbering and the probability of masking for each IMGT position calculated based on the BALM paper, respectively.
 ## Run inference
-
+The weights for trained model can be found [here](https://github.com/benyaminjami/Paired-BALM/releases/download/weights/pretrained_PBALM.tar.gz).
 ```
 from BALM.modeling_balm import BALMForMaskedLM
 from numbering import get_anarci_numbering
